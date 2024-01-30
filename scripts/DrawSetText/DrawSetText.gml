@@ -3,7 +3,7 @@
 //font
 //halign
 //valign
-
+//hello!
 //Allows one line setup of major text drawing vars.
 //requiring all four prevents silly coders from forgetting one
 //And therefore creating a dumb dependency on other event calls.
