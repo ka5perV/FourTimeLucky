@@ -7,12 +7,10 @@ xTo = xstart;
 yTo = ystart;
 
 
-//Screenshake
 
-shake_length = 60;
-shake_magnitude = 6;
-shake_remain = 6;
-buff = 32;
+
+
+
 
 
 
