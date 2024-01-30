@@ -31,6 +31,7 @@
     {"name":"oEnemy","order":4,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oGun","order":2,"path":"objects/oGun/oGun.yy",},
     {"name":"oCamera","order":6,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"oTimer","order":7,"path":"objects/oTimer/oTimer.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sTiles","order":10,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
