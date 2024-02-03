@@ -21,6 +21,7 @@
     {"name":"sGun","order":4,"path":"sprites/sGun/sGun.yy",},
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
+    {"name":"oTransition","order":9,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sEnemyR","order":8,"path":"sprites/sEnemyR/sEnemyR.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"fnt_score","order":1,"path":"fonts/fnt_score/fnt_score.yy",},

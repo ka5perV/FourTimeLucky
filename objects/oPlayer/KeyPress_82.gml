@@ -1,8 +1,0 @@
-game_restart();
-
-
-
-
-
-
-

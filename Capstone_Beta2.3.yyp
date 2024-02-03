@@ -38,6 +38,7 @@
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},},
+    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sEnemyR","path":"sprites/sEnemyR/sEnemyR.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
@@ -57,11 +58,12 @@
     {"id":{"name":"fnt_smaller","path":"fonts/fnt_smaller/fnt_smaller.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},},
+    {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
