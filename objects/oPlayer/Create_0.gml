@@ -1,4 +1,5 @@
 //comment
+//comment
 
 
 hsp = 0;
@@ -20,6 +21,6 @@ moveGravity = 0.5; // gravity acceleration
 //Double-click to detect the variable
 leftPressedTime = -1;
 rightPressedTime = -1;
-doubleClickThreshold = 250; // Double-click time threshold (frame)
+doubleClickThreshold = 150; // Double-click time threshold (frame)
 
 
