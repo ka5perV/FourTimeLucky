@@ -35,7 +35,9 @@
   },
   "resources": [
     {"id":{"name":"snLanding","path":"sounds/snLanding/snLanding.yy",},},
-    {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
+    {"id":{"name":"sPlayerNoarms","path":"sprites/sPlayerNoarms/sPlayerNoarms.yy",},},
+    {"id":{"name":"sSnowBullet","path":"sprites/sSnowBullet/sSnowBullet.yy",},},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"snFoot4","path":"sounds/snFoot4/snFoot4.yy",},},

@@ -18,7 +18,9 @@
   ],
   "ResourceOrderSettings": [
     {"name":"snLanding","order":5,"path":"sounds/snLanding/snLanding.yy",},
-    {"name":"sBullet","order":5,"path":"sprites/sBullet/sBullet.yy",},
+    {"name":"sPlayerNoarms","order":11,"path":"sprites/sPlayerNoarms/sPlayerNoarms.yy",},
+    {"name":"sSnowBullet","order":5,"path":"sprites/sSnowBullet/sSnowBullet.yy",},
+    {"name":"Sprite13","order":12,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"sGun","order":4,"path":"sprites/sGun/sGun.yy",},
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"snFoot4","order":3,"path":"sounds/snFoot4/snFoot4.yy",},
