@@ -31,6 +31,7 @@
     {"name":"rMenu","order":1,"path":"rooms/rMenu/rMenu.yy",},
     {"name":"fnt_score","order":1,"path":"fonts/fnt_score/fnt_score.yy",},
     {"name":"oMenu","order":10,"path":"objects/oMenu/oMenu.yy",},
+    {"name":"Sprite14","order":13,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"oBullet","order":3,"path":"objects/oBullet/oBullet.yy",},
     {"name":"fMenu","order":2,"path":"fonts/fMenu/fMenu.yy",},
     {"name":"oDead","order":5,"path":"objects/oDead/oDead.yy",},
