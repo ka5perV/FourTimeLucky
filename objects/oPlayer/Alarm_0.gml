@@ -7,3 +7,8 @@ canDash = true; // 冲刺冷却结束，可以再次冲刺
 
 
 
+if (alarm[0] > 0) {
+    alarm[0] -= 1;
+} else {
+    canTakeDamage = true; // Allow taking damage again
+}

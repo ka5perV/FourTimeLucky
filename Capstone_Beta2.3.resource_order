@@ -53,6 +53,7 @@
     {"name":"oGame","order":8,"path":"objects/oGame/oGame.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sTiles","order":10,"path":"sprites/sTiles/sTiles.yy",},
+    {"name":"oHealth","order":13,"path":"objects/oHealth/oHealth.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
     {"name":"oCarrot","order":11,"path":"objects/oCarrot/oCarrot.yy",},
   ],

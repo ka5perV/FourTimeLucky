@@ -46,6 +46,8 @@ if (place_meeting(x, y + vspeed - oWall.sprite_height, oWall)) {
 	gravity = 0;
 }
 
+
+
 // Jump
 var onGround = place_meeting(x, y + 1, oWall); 	
 if (!onGround) {
