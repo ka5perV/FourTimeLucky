@@ -26,6 +26,7 @@
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"snFoot4","order":3,"path":"sounds/snFoot4/snFoot4.yy",},
     {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
+    {"name":"oPDead","order":12,"path":"objects/oPDead/oPDead.yy",},
     {"name":"oTransition","order":9,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sMoutains","order":14,"path":"sprites/sMoutains/sMoutains.yy",},
     {"name":"sEnemyR","order":8,"path":"sprites/sEnemyR/sEnemyR.yy",},

@@ -28,3 +28,4 @@ for (var i = 0; i < menu_items; i++)
 	draw_text(xx,yy,txt);
 	
 }
+
