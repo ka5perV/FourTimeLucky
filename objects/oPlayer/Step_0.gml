@@ -8,14 +8,18 @@ dash_key_jump = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")
 
 // move left
 if (move_key_left) {
-    x -= moveSpeed;
-	image_xscale = -1
+	if (x > oWall.sprite_width) {
+	    x -= moveSpeed;
+		image_xscale = -1;
+	}
 }
 
 // move right
 if (move_key_right) {
-    x += moveSpeed;
-	image_xscale = 1
+	if (x < 736) {
+		x += moveSpeed;
+		image_xscale = 1
+	}
 }
 
 var currentTime = current_time;
@@ -26,8 +30,7 @@ var currentTime = current_time;
 // }
 
 if (place_meeting(x + hspeed, y - 2, oWall)) {
-	show_debug_message("place_meeting: " + string(currentTime) + ", " + string(place_meeting(x + 1, y - 1, oWall)));
- 	while(!place_meeting(x, y - 2, oWall)){
+	while(!place_meeting(x, y - 2, oWall)){
  		x += sign(hspeed)
 	}
 	hspeed = 0;
@@ -44,13 +47,16 @@ if (place_meeting(x, y + vspeed - oWall.sprite_height, oWall)) {
 }
 
 // Jump
-var onGround = place_meeting(x, y + 1, oWall);
+var onGround = place_meeting(x, y + 1, oWall); 	
 if (!onGround) {
 	gravity = moveGravity;
 }
 else {
 	var collision_instance = instance_place(x, y + 1, oWall);
-	y = collision_instance.y;
+	show_debug_message("collision_instance:" + string(collision_instance.image_angle));
+	if (collision_instance.x != 0 && collision_instance.x != 736) {
+		y = collision_instance.y;
+	}
 	if (keyboard_check_pressed(vk_up)) {
 	    vspeed = jumpSpeed;
 		gravity = moveGravity;
