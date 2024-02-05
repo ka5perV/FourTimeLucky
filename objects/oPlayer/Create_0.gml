@@ -1,16 +1,8 @@
-//comment
-//comment
-
-
 hsp = 0;
 vsp = 0;
 grv = .25;
 walksp = 4;
-
-// move variables
-moveSpeed = 4; // Player's movement speed
-jumpSpeed = -10; // Initial speed when jumping, negative value means upward
-
+hascontrol = true;
 
 // sprint variables
 dashSpeed = 8; // dash speed
@@ -22,9 +14,3 @@ moveGravity = 0.5; // gravity acceleration
 leftPressedTime = -1;
 rightPressedTime = -1;
 doubleClickThreshold = 150; // Double-click time threshold (frame)
-
-//HP
-canTakeDamage = true;
-damageDelay = room_speed * 3;
-
-
