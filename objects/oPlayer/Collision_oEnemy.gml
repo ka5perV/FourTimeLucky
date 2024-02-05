@@ -16,8 +16,11 @@ global.mytime = 0;
 	
 	if (canTakeDamage) {
 		
-    global.HP--;
+	// push back here
 
+    global.HP--;
+	audio_play_sound(snDeath,5,false); //
+	
     canTakeDamage = false; // Prevent further damage 
     alarm[0] = damageDelay; // delay
 }
