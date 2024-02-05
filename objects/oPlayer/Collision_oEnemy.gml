@@ -23,9 +23,8 @@ global.mytime = 0;
 	
     canTakeDamage = false; // Prevent further damage 
     alarm[0] = damageDelay; // delay
-}
-	
 	}
+}
 
 
 
