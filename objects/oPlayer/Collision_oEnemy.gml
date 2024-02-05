@@ -15,7 +15,9 @@ global.mytime = 0;
 } else { // take damage
 	
 	if (canTakeDamage) {
+		
     global.HP--;
+
     canTakeDamage = false; // Prevent further damage 
     alarm[0] = damageDelay; // delay
 }

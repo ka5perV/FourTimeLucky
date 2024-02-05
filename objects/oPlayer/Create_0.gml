@@ -14,3 +14,9 @@ moveGravity = 0.5; // gravity acceleration
 leftPressedTime = -1;
 rightPressedTime = -1;
 doubleClickThreshold = 150; // Double-click time threshold (frame)
+
+
+//HP
+
+canTakeDamage = true;
+damageDelay = room_speed * 3;
