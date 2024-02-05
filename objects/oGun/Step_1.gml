@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = oPlayer.x+5;
+x = oPlayer.x;
 y = oPlayer.y-35;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);

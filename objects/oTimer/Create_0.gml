@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.mytime = 200;
+global.mytime = 180;
 showTime = global.mytime;
 
 
@@ -10,3 +10,4 @@ showTime = global.mytime;
 
 
 
+                      

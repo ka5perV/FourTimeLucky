@@ -1,4 +1,4 @@
-//Get player input
+ //Get player input
 if (hascontrol)
 {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -65,7 +65,7 @@ else
 	image_speed = 1;
 	if (hsp==0)
 	{
-		sprite_index = sPlayerNoarms;
+		sprite_index = sPlayer;
 	}
 	else
 	{
