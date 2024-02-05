@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite13",
+  "name": "sEBullet",
   "bbox_bottom": 64,
   "bbox_left": 28,
   "bbox_right": 62,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite13",
+    "name": "sEBullet",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92a664e0-cd93-45ab-bcf8-c880390767fa","path":"sprites/Sprite13/Sprite13.yy",},},},"Disabled":false,"id":"e1c6cfd8-3e2f-4ab4-a875-68723b29b6e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3cbf3206-a820-494c-8779-3a5ec2aaa8be","path":"sprites/Sprite13/Sprite13.yy",},},},"Disabled":false,"id":"3b64fa1d-8808-4560-948d-6bf92348f709","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92a664e0-cd93-45ab-bcf8-c880390767fa","path":"sprites/sEBullet/sEBullet.yy",},},},"Disabled":false,"id":"e1c6cfd8-3e2f-4ab4-a875-68723b29b6e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3cbf3206-a820-494c-8779-3a5ec2aaa8be","path":"sprites/sEBullet/sEBullet.yy",},},},"Disabled":false,"id":"3b64fa1d-8808-4560-948d-6bf92348f709","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
