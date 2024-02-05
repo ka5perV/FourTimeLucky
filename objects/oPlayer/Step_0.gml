@@ -65,7 +65,7 @@ else
 	image_speed = 1;
 	if (hsp==0)
 	{
-		sprite_index = sPlayer;
+		sprite_index = sPlayerNoarms;
 	}
 	else
 	{

@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sPlayerNoarms",
+    "path": "sprites/sPlayerNoarms/sPlayerNoarms.yy",
   },
   "spriteMaskId": null,
   "visible": true,
