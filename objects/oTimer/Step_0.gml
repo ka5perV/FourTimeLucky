@@ -24,7 +24,7 @@ if (global.mytime <= 10)
 }
 if (global.mytime <=0)
 {
-	// show_message("You didn't save the girl :(\nClick ok to restart the game");
+	show_message("You Failed :(\nClick ok to restart the game");
 	game_restart()
 }
 
