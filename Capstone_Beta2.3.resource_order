@@ -51,6 +51,7 @@
     {"name":"oCamera","order":6,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oTimer","order":7,"path":"objects/oTimer/oTimer.yy",},
     {"name":"oGame","order":8,"path":"objects/oGame/oGame.yy",},
+    {"name":"Sprite19","order":17,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sTiles","order":10,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
