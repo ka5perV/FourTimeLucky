@@ -60,5 +60,6 @@
     {"name":"oHealth","order":13,"path":"objects/oHealth/oHealth.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
     {"name":"oCarrot","order":11,"path":"objects/oCarrot/oCarrot.yy",},
+    {"name":"sPlayerPushB","order":19,"path":"sprites/sPlayerPushB/sPlayerPushB.yy",},
   ],
 }
