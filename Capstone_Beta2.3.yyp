@@ -90,6 +90,7 @@
     {"id":{"name":"sPlayerPushB","path":"sprites/sPlayerPushB/sPlayerPushB.yy",},},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},},
+    {"id":{"name":"sFrozenEnemy","path":"sprites/sFrozenEnemy/sFrozenEnemy.yy",},},
     {"id":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
   ],
   "RoomOrderNodes": [
