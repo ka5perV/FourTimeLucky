@@ -5,8 +5,9 @@ with (other)
 	hitfrom = other.direction;
 	frozen = true;
 	oEnemy.alarm[0] = 60;
+	instance_destroy();
 }
-instance_destroy();
+//instance_destroy();
 
 
 

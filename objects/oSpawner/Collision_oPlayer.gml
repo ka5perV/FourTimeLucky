@@ -2,7 +2,7 @@
 if (triggered == false)
 {
 	//closed doors and stop from retriggering
-	//with (oDoor) closed = true;
+	with (oDoor) closed = true;
 	triggered = true;
 	
 	//work out number of waves and enemies per wave

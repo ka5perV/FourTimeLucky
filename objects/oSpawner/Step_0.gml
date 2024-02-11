@@ -18,16 +18,16 @@ if (triggered)
 	//next wave or end spawner when all enemies have died
 	if (remaining[current_wave] <= 0)
 	{
-		//if (current_wave == total_waves)
-		//{
-			//with (oDoor) closed = false;
+		if (current_wave == total_waves)
+		{
+			with (oDoor) closed = false;
 			//instance_destroy();
-		//}
-		//else
-		//{
+		}
+		else
+		{
 			current_wave++;
 			timer = 0;
-		//}
+		}
 	}
 }
 
