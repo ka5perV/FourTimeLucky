@@ -1,4 +1,4 @@
-//Size variables and mode set up
+ //Size variables and mode set up
 
 w = display_get_gui_width();
 h = display_get_gui_height();

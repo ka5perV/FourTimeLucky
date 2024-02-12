@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 
 showHP = global.HP;
@@ -17,4 +17,4 @@ repeat (global.HP)
     draw_sprite(sCarrotHealthBar, 15, 110 + _xoffset, 05);
 	_xoffset += 18 
 	
-}
+}              
