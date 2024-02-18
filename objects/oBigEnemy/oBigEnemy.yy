@@ -9,8 +9,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"propertyId":{"name":"hp","path":"objects/oEnemy/oEnemy.yy",},"value":"20",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "SnailEnemy",
+    "path": "folders/Objects/SnailEnemy.yy",
   },
   "parentObjectId": {
     "name": "pEnemy",
