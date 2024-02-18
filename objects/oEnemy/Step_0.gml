@@ -81,4 +81,19 @@ if (hsp != 0) image_xscale = sign (hsp) * size;
 image_yscale = size;
 
 
+// 增加计时器
+fire_timer += 1;
 
+// 每隔3秒发射一颗子弹
+if (fire_timer >= 3 * room_speed) { // room_speed是每秒的帧数
+    // 重置计时器
+    fire_timer = 0;
+
+    // 计算子弹向玩家的方向
+    var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
+
+    // 创建子弹并设置其方向和速度
+    var bullet = instance_create_layer(x, y, "Enemy", oEBullet);
+    bullet.direction = dir;
+    bullet.speed = 10; // 根据需要调整速度
+}
