@@ -23,7 +23,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-	vsp = -7
+	vsp = -10
 }
 
 var currentTime = current_time;
