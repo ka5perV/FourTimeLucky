@@ -26,7 +26,7 @@
   "origin": 7,
   "parent": {
     "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "path": "folders/Sprites/Characters/Player.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

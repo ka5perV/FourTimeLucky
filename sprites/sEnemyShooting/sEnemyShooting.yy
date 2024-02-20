@@ -33,7 +33,7 @@
   "origin": 9,
   "parent": {
     "name": "SnailEnemy",
-    "path": "folders/Sprites/SnailEnemy.yy",
+    "path": "folders/Sprites/Characters/SnailEnemy.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

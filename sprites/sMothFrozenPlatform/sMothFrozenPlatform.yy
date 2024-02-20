@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "MothEnemy",
-    "path": "folders/Sprites/MothEnemy.yy",
+    "path": "folders/Sprites/Characters/MothEnemy.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -10,7 +10,7 @@
   ],
   "parent": {
     "name": "SnailEnemy",
-    "path": "folders/Objects/SnailEnemy.yy",
+    "path": "folders/Objects/Characters/SnailEnemy.yy",
   },
   "parentObjectId": {
     "name": "pEnemy",

@@ -13,21 +13,21 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"539edc05-7f70-4de6-a544-7dacdee4faf1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b7ec02e-87ff-4849-a956-e60c78acaacc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da95b29f-f33a-46da-846b-372188f75341",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e339c7cf-7fd5-4abc-afa7-78a6f7f7eca7",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 196,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0e0f7d90-6907-4fb4-9ddb-fb40b87e8bb5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8c1fccfb-007c-483a-a9dc-8fe4ad925ed7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
   "parent": {
     "name": "MothEnemy",
-    "path": "folders/Sprites/MothEnemy.yy",
+    "path": "folders/Sprites/Characters/MothEnemy.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"539edc05-7f70-4de6-a544-7dacdee4faf1","path":"sprites/sMothBullet/sMothBullet.yy",},},},"Disabled":false,"id":"8ccf9ffd-9953-492b-8174-81775dd313d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1b7ec02e-87ff-4849-a956-e60c78acaacc","path":"sprites/sMothBullet/sMothBullet.yy",},},},"Disabled":false,"id":"9e91145e-4147-484b-af57-757677f16346","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"da95b29f-f33a-46da-846b-372188f75341","path":"sprites/sMothBullet/sMothBullet.yy",},},},"Disabled":false,"id":"b954a698-1b25-47c1-8e74-2870af2384c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e339c7cf-7fd5-4abc-afa7-78a6f7f7eca7","path":"sprites/sMothBullet/sMothBullet.yy",},},},"Disabled":false,"id":"7935b008-8863-42eb-94b1-324522c6576c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
