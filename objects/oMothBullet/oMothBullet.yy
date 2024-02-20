@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "MothEnemy",
-    "path": "folders/Objects/Characters/MothEnemy.yy",
+    "path": "folders/Objects/Characters/Enemies/MothEnemy.yy",
   },
   "parentObjectId": null,
   "persistent": false,
