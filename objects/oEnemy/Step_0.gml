@@ -50,15 +50,19 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y += vsp;
-
 //Animation
-
+	
 if (!place_meeting(x,y+1,oWall))
 {
 	//code for ledges
 	grounded = false;
 	//
-	sprite_index = sEnemyA;
+	if (frozen) {
+		sprite_index = sFrozenEnemy;
+	}
+	else {
+		sprite_index = sEnemyA;
+	}
 	image_speed = 0;
 	if (sign(vsp)>0) image_index = 1; else image_index = 0;
 }
@@ -68,7 +72,11 @@ else
 	grounded = true;
 	//
 	image_speed = 1;
-	if (hsp==0)
+	if (frozen) {
+		sprite_index = sFrozenEnemy;
+
+	}
+	else if (hsp==0)
 	{
 		sprite_index = sEnemy;
 	}
@@ -80,20 +88,24 @@ else
 if (hsp != 0) image_xscale = sign (hsp) * size;
 image_yscale = size;
 
+var margin = 150;
+var view_x = view_xview[0];
+var view_y = view_yview[0];
+var view_width = view_wview[0];
+var view_height = view_hview[0];
 
-// 增加计时器
-fire_timer += 1;
+var bullet_interval = 8;
+// show_debug_message("x:" + string(x) + ",y:" + string(y) + ",view_x:" + string(view_x) + ",view_y:" + string(view_y)  + ",view_width:" + string(view_width) + ",view_height:" + string(view_height));
+if (x > view_x + margin && x < view_x + view_width - margin && y > view_y + margin && y < view_y + view_height - margin) {
+ 
+	fire_timer += 1;
 
-// 每隔3秒发射一颗子弹
-if (fire_timer >= 3 * room_speed) { // room_speed是每秒的帧数
-    // 重置计时器
-    fire_timer = 0;
-
-    // 计算子弹向玩家的方向
-    var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
-
-    // 创建子弹并设置其方向和速度
-    var bullet = instance_create_layer(x, y, "Enemy", oEBullet);
-    bullet.direction = dir;
-    bullet.speed = 10; // 根据需要调整速度
+	if (fire_timer >= (bullet_interval + random(5)) * room_speed) { 
+	    fire_timer = 0;
+	    var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
+	    var bullet = instance_create_layer(x, y, "Enemy", oEBullet);
+	    bullet.direction = dir;
+	    bullet.speed = 10;
+		show_debug_message(dir);
+	}
 }

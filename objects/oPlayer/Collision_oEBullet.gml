@@ -1,5 +1,3 @@
-//Die
-
 if(global.HP < 1){
 	with (oGun) instance_destroy();
 instance_change(oPDead,true);
@@ -25,14 +23,3 @@ global.mytime = 0;
     alarm[0] = damageDelay; // delay
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
