@@ -8,7 +8,7 @@
     {"name":"Background.Wall.Ground","order":23,"path":"folders/Objects/Background.Wall.Ground.yy",},
     {"name":"Characters","order":29,"path":"folders/Objects/Characters.yy",},
     {"name":"Enemies","order":3,"path":"folders/Objects/Characters/Enemies.yy",},
-    {"name":"SnailEnemy","order":1,"path":"folders/Objects/Characters/Enemies/SnailEnemy.yy",},
+    {"name":"SnailEnemy","order":2,"path":"folders/Objects/Characters/Enemies/MothEnemy/SnailEnemy.yy",},
     {"name":"Player","order":1,"path":"folders/Objects/Characters/Player.yy",},
     {"name":"Health","order":26,"path":"folders/Objects/Health.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},

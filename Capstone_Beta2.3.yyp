@@ -20,7 +20,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Characters","folderPath":"folders/Objects/Characters.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemies","folderPath":"folders/Objects/Characters/Enemies.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MothEnemy","folderPath":"folders/Objects/Characters/Enemies/MothEnemy.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SnailEnemy","folderPath":"folders/Objects/Characters/Enemies/SnailEnemy.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SnailEnemy","folderPath":"folders/Objects/Characters/Enemies/MothEnemy/SnailEnemy.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Objects/Characters/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Health","folderPath":"folders/Objects/Health.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
