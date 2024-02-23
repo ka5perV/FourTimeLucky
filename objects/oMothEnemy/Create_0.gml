@@ -1,6 +1,6 @@
 //speed for Moth following player
 
 
-//var spd = 4;
+spd = 4;
 
 

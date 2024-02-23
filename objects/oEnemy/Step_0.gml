@@ -94,13 +94,13 @@ var view_y = view_yview[0];
 var view_width = view_wview[0];
 var view_height = view_hview[0];
 
-var bullet_interval = 8;
+var bullet_interval = 10;
 // show_debug_message("x:" + string(x) + ",y:" + string(y) + ",view_x:" + string(view_x) + ",view_y:" + string(view_y)  + ",view_width:" + string(view_width) + ",view_height:" + string(view_height));
 if (x > view_x + margin && x < view_x + view_width - margin && y > view_y + margin && y < view_y + view_height - margin) {
  
 	fire_timer += 1;
 
-	if (fire_timer >= (bullet_interval + random(5)) * room_speed) { 
+	if (fire_timer >= (bullet_interval) * room_speed) { 
 	    fire_timer = 0;
 	    var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
 	    var bullet = instance_create_layer(x, y, "Enemy", oEBullet);
