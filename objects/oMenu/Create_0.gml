@@ -20,7 +20,7 @@ menu[1] = "Continue";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
-menu_cursor = 3;
+menu_cursor = 2;
 
 
 

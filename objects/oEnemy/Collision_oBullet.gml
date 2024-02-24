@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
 var r = irandom(5)
 
 frozen = r == 0;
