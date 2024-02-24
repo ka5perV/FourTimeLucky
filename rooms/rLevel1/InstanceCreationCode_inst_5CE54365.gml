@@ -42,7 +42,7 @@ ds_list_add(waves,[4,oEnemy,1,50]);
 ds_list_add(waves,[4,oEnemy,1,100]);
 ds_list_add(waves,[4,oEnemy,1,150]);
 
-spawn[0,0] = 50;
-spawn[0,1] = 50;
-spawn[1,0] = 600;
-spawn[1,1] = 10;
+spawn[0,0] = 200;  // X (left)
+spawn[0,1] = 1700; // Y (left)
+spawn[1,0] = 1250; // X (right)
+spawn[1,1] = 1700; // Y (right)
