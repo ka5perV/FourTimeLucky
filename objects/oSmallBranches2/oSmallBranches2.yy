@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCarrot",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "oSmallBranches2",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Health",
-    "path": "folders/Objects/Health.yy",
+    "name": "Decoration Assets",
+    "path": "folders/Objects/Background.Wall.Ground/Decoration Assets.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sCarrot",
-    "path": "sprites/sCarrot/sCarrot.yy",
+    "name": "sSmallBranches2",
+    "path": "sprites/sSmallBranches2/sSmallBranches2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
