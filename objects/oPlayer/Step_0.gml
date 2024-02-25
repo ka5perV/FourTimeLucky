@@ -21,12 +21,13 @@ var move = key_right -  key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
-if (place_meeting(x,y+1,oWall)) && (key_jump)
+if (place_meeting(x,y+1,oWall) || place_meeting(x,y+1,oMothEnemy)) && (key_jump)
 {
 	vsp = -10
 }
 
 var currentTime = current_time;
+
 
 //Horizontal collision
 if (place_meeting(x+hsp,y,oWall))
@@ -40,6 +41,19 @@ if (place_meeting(x+hsp,y,oWall))
 
 x += hsp;
 
+//Horizontal collision for moth
+if (place_meeting(x+hsp,y,oMothEnemy))
+{
+	while(!place_meeting(x+sign(hsp),y,oMothEnemy))
+	{
+	x += sign(hsp)
+	}
+	hsp = 0;
+}
+
+
+
+
 //Vertical collision
 if (place_meeting(x,y+vsp,oWall))
 {
@@ -51,6 +65,19 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y += vsp;
+
+//Vertical collision for moth
+if (place_meeting(x,y+vsp,oMothEnemy))
+{
+	while(!place_meeting(x,y+sign(vsp),oMothEnemy))
+	{
+	y += sign(vsp)
+	}
+	vsp = 0;
+}
+
+
+
 
 //Animation
 
@@ -73,6 +100,8 @@ else
 	}
 }
 if (hsp != 0) image_xscale = sign (hsp);
+
+
 
 
 // dash left

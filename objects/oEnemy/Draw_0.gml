@@ -3,7 +3,7 @@
 if (flash >0)
 {
 	flash--;
-	sprite_index = sFrozenEnemy;
+	//sprite_index = sFrozenEnemy;
 	shader_set(shWhite);
 	draw_self();
 	shader_reset();

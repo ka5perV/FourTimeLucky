@@ -1,3 +1,4 @@
-alarm[1]=room_speed*5
+
+//alarm[1]=room_speed*5
 
 

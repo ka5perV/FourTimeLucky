@@ -51,14 +51,46 @@ if (place_meeting(x,y+vsp,oWall))
 
 y += vsp;
 //Animation
+
+if (!place_meeting(x,y+1,oWall))
+{
+	//Enemies and Ledges
+	grounded = false;
+	//Code before Enemies and Ledges
+	sprite_index = sEnemyA;
+	image_speed = 0;
+	if (sign(vsp)>0) image_index = 1; else image_index = 0;
+}
+else
+{
+	//Enemies and Ledges
+	grounded = true;
 	
+	//Code before Enemies and Ledges
+	image_speed = 1;
+	if (hsp==0)
+	{
+		sprite_index = sEnemy;
+	}
+	else
+	{
+		sprite_index = sEnemyR;
+	}
+}
+//Parent+child object
+if (hsp != 0) image_xscale = sign (hsp) * size;
+image_yscale = size;
+
+
+/*
+
 if (!place_meeting(x,y+1,oWall))
 {
 	//code for ledges
 	grounded = false;
 	//
 	if (frozen) {
-		sprite_index = sFrozenEnemy;
+		//sprite_index = shWhite //sFrozenEnemy;
 	}
 	else {
 		sprite_index = sEnemyA;
@@ -73,7 +105,7 @@ else
 	//
 	image_speed = 1;
 	if (frozen) {
-		sprite_index = sFrozenEnemy;
+		sprite_index = shWhite; // sFrozenEnemy;
 
 	}
 	else if (hsp==0)
@@ -85,9 +117,13 @@ else
 		sprite_index = sEnemyR;
 	}
 }
+//Parent+child object
 if (hsp != 0) image_xscale = sign (hsp) * size;
 image_yscale = size;
+*/
 
+
+/*
 var margin = 150;
 var view_x = view_xview[0];
 var view_y = view_yview[0];

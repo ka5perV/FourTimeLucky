@@ -11,5 +11,7 @@ if (hp <=0)
 		if (sign(hsp) !=0) image_xscale = sign(hsp) * other.size; // Parent+child object
 		image_yscale = other.size; // Parent+child object
 	}
+	//code when enemy hasweapon // when enemy dies gun is also destroyed
+	with (mygun) instance_destroy();
 	instance_destroy();
 }

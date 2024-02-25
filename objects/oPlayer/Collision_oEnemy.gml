@@ -20,9 +20,10 @@ global.mytime = 0;
 
     global.HP--;
 	audio_play_sound(snDeath,5,false); //
-	
+	//sprite_index = sPlayerPushB;
     canTakeDamage = false; // Prevent further damage 
     alarm[0] = damageDelay; // delay
+	
 	}
 }
 
