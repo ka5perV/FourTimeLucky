@@ -86,6 +86,7 @@
     {"id":{"name":"sPieniBranch2","path":"sprites/sPieniBranch2/sPieniBranch2.yy",},},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"id":{"name":"oBerriebranch1","path":"objects/oBerriebranch1/oBerriebranch1.yy",},},
+    {"id":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
     {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},},
     {"id":{"name":"snPickup_Carrot","path":"sounds/snPickup_Carrot/snPickup_Carrot.yy",},},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},},
@@ -118,7 +119,6 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},},
     {"id":{"name":"snFoot1","path":"sounds/snFoot1/snFoot1.yy",},},
-    {"id":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
     {"id":{"name":"snShot","path":"sounds/snShot/snShot.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPlatformLeft","path":"sprites/sPlatformLeft/sPlatformLeft.yy",},},
@@ -151,8 +151,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
-    {"roomId":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
     {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
+    {"roomId":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
