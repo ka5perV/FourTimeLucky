@@ -134,9 +134,9 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"moth","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3AD00762","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},"propertyId":{"name":"position_from","path":"objects/oMothEnemy/oMothEnemy.yy",},"value":"1136",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},"propertyId":{"name":"position_to","path":"objects/oMothEnemy/oMothEnemy.yy",},"value":"965",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":2528.0,},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},"propertyId":{"name":"position_from","path":"objects/oMothEnemy/oMothEnemy.yy",},"value":"1088",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},"propertyId":{"name":"position_to","path":"objects/oMothEnemy/oMothEnemy.yy",},"value":"384",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":2464.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19CA5062","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"InstancesPlayerMoth","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -289,7 +289,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":710,"hport":720,"hspeed":20,"hview":1536,"inherit":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"vborder":710,"visible":true,"vspeed":20,"wport":1280,"wview":1536,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":160,"hport":720,"hspeed":20,"hview":1536,"inherit":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"vborder":160,"visible":true,"vspeed":20,"wport":1280,"wview":1536,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

@@ -2,6 +2,7 @@
 x = owner.x-30;
 y = owner.y-300;
 
+
 //resize the gun depend on the enemy size
 image_xscale = abs(owner.image_xscale);
 image_yscale = abs(owner.image_yscale);
