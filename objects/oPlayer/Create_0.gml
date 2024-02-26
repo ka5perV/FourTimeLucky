@@ -4,6 +4,12 @@ grv = .25;
 walksp = 4;
 hascontrol = true;
 
+/*
+//Gunkick
+gunkickx = 0;
+gunkicky = 0;
+*/
+
 // sprint variables
 dashSpeed = 8; // dash speed
 dashDuration = 15; // sprint duration (frames)

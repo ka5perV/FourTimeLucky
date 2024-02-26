@@ -25,6 +25,15 @@ if (mouse_check_button(mb_left)) && (firingdelay<0) //|| keyboard_check(vk_space
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
+	
+	/*
+	//Gun Kickback
+	with (oPlayer)
+	{
+		gunkickx = lengthdir_x(1.5, other.image_angle-10);
+		gunkicky = lengthdir_y(1, other.image_angle-10);
+	}
+	*/
 }
 x = x - lengthdir_x(recoil,image_angle);
 y = y - lengthdir_y(recoil,image_angle);

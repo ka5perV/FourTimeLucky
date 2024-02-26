@@ -26,7 +26,6 @@
     {"name":"Player","order":1,"path":"folders/Sprites/Characters/Player.yy",},
     {"name":"PlayerGun","order":8,"path":"folders/Sprites/Characters/Player/PlayerGun.yy",},
     {"name":"SnailEnemy","order":2,"path":"folders/Sprites/Characters/SnailEnemy.yy",},
-    {"name":"group1","order":18,"path":"folders/Sprites/group1.yy",},
     {"name":"Health","order":16,"path":"folders/Sprites/Health.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},

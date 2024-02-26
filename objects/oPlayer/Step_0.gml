@@ -18,8 +18,22 @@ else
 //Calculate movement
 var move = key_right -  key_left;
 
-hsp = move * walksp;
-vsp = vsp + grv;
+//original code before gunkick
+hsp = move * walksp
+vsp = vsp + grv
+
+/*
+//gunkick code
+
+hsp = (move * walksp) + gunkickx;
+gunkickx = 0;
+
+vsp = (vsp + grv) + gunkicky;
+gunkickx = 0;
+*/
+
+
+
 
 if (place_meeting(x,y+1,oWall) || place_meeting(x,y+1,oMothEnemy)) && (key_jump)
 {

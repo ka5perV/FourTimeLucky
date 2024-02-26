@@ -39,7 +39,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Characters/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerGun","folderPath":"folders/Sprites/Characters/Player/PlayerGun.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SnailEnemy","folderPath":"folders/Sprites/Characters/SnailEnemy.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"group1","folderPath":"folders/Sprites/group1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Health","folderPath":"folders/Sprites/Health.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
