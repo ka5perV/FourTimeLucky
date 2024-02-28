@@ -94,6 +94,7 @@
     {"name":"oGun","order":1,"path":"objects/oGun/oGun.yy",},
     {"name":"snShot","order":6,"path":"sounds/snShot/snShot.yy",},
     {"name":"sPlatformLeft","order":5,"path":"sprites/sPlatformLeft/sPlatformLeft.yy",},
+    {"name":"oEnemyShooting","order":6,"path":"objects/oEnemyShooting/oEnemyShooting.yy",},
     {"name":"sPlatformRight","order":6,"path":"sprites/sPlatformRight/sPlatformRight.yy",},
     {"name":"oSmallBranch1","order":3,"path":"objects/oSmallBranch1/oSmallBranch1.yy",},
     {"name":"oCamera","order":6,"path":"objects/oCamera/oCamera.yy",},

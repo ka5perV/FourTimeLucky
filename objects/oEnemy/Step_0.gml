@@ -22,7 +22,7 @@ if (place_meeting(x,y+1,oWall)) && (key_jump)
 */
 
 //Don't walk on edges
-if (grounded) && (afraidofheights) && (!place_meeting(x+hsp,y+0.5,oWall))
+if (grounded) && (afraidofheights) && (!place_meeting(x+hsp,y+1,oWall))
 {
 	hsp = -hsp;
 }

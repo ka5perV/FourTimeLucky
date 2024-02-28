@@ -125,6 +125,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPlatformLeft","path":"sprites/sPlatformLeft/sPlatformLeft.yy",},},
     {"id":{"name":"oMothEnemy","path":"objects/oMothEnemy/oMothEnemy.yy",},},
+    {"id":{"name":"oEnemyShooting","path":"objects/oEnemyShooting/oEnemyShooting.yy",},},
     {"id":{"name":"sPlatformRight","path":"sprites/sPlatformRight/sPlatformRight.yy",},},
     {"id":{"name":"oSmallBranch1","path":"objects/oSmallBranch1/oSmallBranch1.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},

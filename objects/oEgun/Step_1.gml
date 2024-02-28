@@ -30,6 +30,7 @@ if (instance_exists(oPlayer))
 					spd = 5;
 					direction = other.image_angle + random_range(-3,3);
 					image_angle = direction;
+					//image_index = oEnemyShooting;
 				}
 				}
 			
