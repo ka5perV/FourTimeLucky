@@ -4,6 +4,6 @@
 randomize();
 dir = choose (-1,1)
 frozen = false;
-speed = 5;
+//speed = 5;
 
 

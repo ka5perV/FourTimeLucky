@@ -1,5 +1,5 @@
 //mark this instance to not "visible" in order to hide this. Or delete this event.
-
+/*
 if (triggered)
 {
 	var str = "remaining: ";

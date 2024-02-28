@@ -15,12 +15,11 @@ menu_control = true;
 
 
 //Array for Menu Options
-menu[2] = "New Game";
-menu[1] = "Continue";
+menu[1] = "Play";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
-menu_cursor = 2;
+menu_cursor = 1;
 
 
 
