@@ -68,6 +68,7 @@
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},},
     {"id":{"name":"sBerriesbranch2","path":"sprites/sBerriesbranch2/sBerriesbranch2.yy",},},
     {"id":{"name":"sFrozenMothBroken","path":"sprites/sFrozenMothBroken/sFrozenMothBroken.yy",},},
+    {"id":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
     {"id":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
@@ -158,6 +159,7 @@
     {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
     {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"roomId":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
+    {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

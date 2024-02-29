@@ -45,6 +45,7 @@
     {"name":"oEBullet","order":2,"path":"objects/oEBullet/oEBullet.yy",},
     {"name":"sBerriesbranch2","order":1,"path":"sprites/sBerriesbranch2/sBerriesbranch2.yy",},
     {"name":"sFrozenMothBroken","order":3,"path":"sprites/sFrozenMothBroken/sFrozenMothBroken.yy",},
+    {"name":"rEnding","order":5,"path":"rooms/rEnding/rEnding.yy",},
     {"name":"rLevel2","order":3,"path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"sEnemy","order":1,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sDoor","order":10,"path":"sprites/sDoor/sDoor.yy",},
