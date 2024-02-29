@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sEBullet",
-    "path": "sprites/sEBullet/sEBullet.yy",
+    "name": "sEgun",
+    "path": "sprites/sEgun/sEgun.yy",
   },
   "spriteMaskId": null,
   "visible": true,

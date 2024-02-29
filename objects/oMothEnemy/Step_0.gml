@@ -12,9 +12,29 @@ if (instance_exists(oPlayer)) {
 if (frozen) exit;
 
 
+/*
+
 x += horizontal_speed * dir;
 
-if (x <= position_from || x >= position_to)
+if (x < position_from || x > position_to)
 {
 	dir *= -1;
 }
+*/
+
+
+hsp = dir * movespeed;
+
+//Horizontal collision
+if (place_meeting(x+hsp,y,oWall))
+{
+	while(!place_meeting(x+sign(hsp),y,oWall))
+	{
+	x += sign(hsp)
+	}
+	hsp = 0; //-hsp;
+	dir *= -1;
+}
+
+x += hsp;
+

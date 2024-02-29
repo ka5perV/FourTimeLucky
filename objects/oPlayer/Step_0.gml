@@ -55,6 +55,7 @@ if (place_meeting(x+hsp,y,oWall))
 
 x += hsp;
 
+/*
 //Horizontal collision for moth
 if (place_meeting(x+hsp,y,oMothEnemy))
 {
@@ -64,7 +65,7 @@ if (place_meeting(x+hsp,y,oMothEnemy))
 	}
 	hsp = 0;
 }
-
+*/
 
 
 
@@ -80,6 +81,8 @@ if (place_meeting(x,y+vsp,oWall))
 
 y += vsp;
 
+
+
 //Vertical collision for moth
 if (place_meeting(x,y+vsp,oMothEnemy))
 {
@@ -89,6 +92,7 @@ if (place_meeting(x,y+vsp,oMothEnemy))
 	}
 	vsp = 0;
 }
+
 
 
 

@@ -70,6 +70,7 @@
     {"name":"oRoomMenu","order":9,"path":"objects/oRoomMenu/oRoomMenu.yy",},
     {"name":"sSmallBranches2","order":5,"path":"sprites/sSmallBranches2/sSmallBranches2.yy",},
     {"name":"oBerriebranch2","order":1,"path":"objects/oBerriebranch2/oBerriebranch2.yy",},
+    {"name":"sEgun","order":8,"path":"sprites/sEgun/sEgun.yy",},
     {"name":"oBackgroundMenu","order":2,"path":"objects/oBackgroundMenu/oBackgroundMenu.yy",},
     {"name":"oEgun","order":5,"path":"objects/oEgun/oEgun.yy",},
     {"name":"sMothFrozenPlatform","order":2,"path":"sprites/sMothFrozenPlatform/sMothFrozenPlatform.yy",},
@@ -111,6 +112,7 @@
     {"name":"sPlayerPushB","order":4,"path":"sprites/sPlayerPushB/sPlayerPushB.yy",},
     {"name":"oRightWall","order":4,"path":"objects/oRightWall/oRightWall.yy",},
     {"name":"sPienibranch1","order":2,"path":"sprites/sPienibranch1/sPienibranch1.yy",},
+    {"name":"sEBullet2","order":7,"path":"sprites/sEBullet2/sEBullet2.yy",},
     {"name":"sFrozenEnemy","order":6,"path":"sprites/sFrozenEnemy/sFrozenEnemy.yy",},
   ],
 }
