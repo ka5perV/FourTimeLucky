@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sMothFrozenPlatform",
   "bbox_bottom": 227,
-  "bbox_left": 32,
-  "bbox_right": 254,
+  "bbox_left": 37,
+  "bbox_right": 258,
   "bbox_top": 178,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"441f22b7-c496-4c58-9ba5-5c56f2cdfa6a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef65f352-c375-454e-86d5-546eeaa1f51f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 296,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bda90dbe-a414-4711-8d7b-381b78924219","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"212fafa7-1d57-4df8-94ce-32c42c7d254c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"441f22b7-c496-4c58-9ba5-5c56f2cdfa6a","path":"sprites/sMothFrozenPlatform/sMothFrozenPlatform.yy",},},},"Disabled":false,"id":"3fe85bb7-e24a-4536-9fea-c13e2b1910ba","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef65f352-c375-454e-86d5-546eeaa1f51f","path":"sprites/sMothFrozenPlatform/sMothFrozenPlatform.yy",},},},"Disabled":false,"id":"905a8456-aecc-4019-8236-fc816c360356","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

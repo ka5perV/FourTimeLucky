@@ -1,4 +1,4 @@
-//Facing of dead enemy
+ //Facing of dead enemy
 
 
 if (hp <=0) 
