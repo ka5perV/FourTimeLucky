@@ -1,3 +1,5 @@
+sprite_index = sPlayerPushB;
+	
 if(global.HP < 1){
 	with (oGun) instance_destroy();
 instance_change(oPDead,true);
@@ -15,7 +17,7 @@ global.mytime = 0;
 	if (canTakeDamage) {
 		
 	// push back here
-
+	
     global.HP--;
 	audio_play_sound(snDeath,5,false); //
 	
