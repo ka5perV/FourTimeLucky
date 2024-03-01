@@ -4,7 +4,7 @@
 controls1 = "A Key = Move to the left"
 controls2 = "D Key = Move to the right"
 controls3 = "W = Jump"
-controls4 = "ctrl a+ f = Full Screen"
+controls4 = "ctrl + f = Full Screen"
 controls5 = "R Key = Restart the game"
 controls6 = "Enter = Select"
 controls7 = "Double A = Dash to the left"
