@@ -7,6 +7,6 @@ alarm[1] = 360
 sprite_index =sMothFrozenPlatform ;
 
 //STOP obj and adjust platform hight
-//speed = 0;
+speed = 0;
 //y -= 10; 
 
