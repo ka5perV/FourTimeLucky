@@ -1,3 +1,15 @@
+//Draw Text
+// control instructions Menu
+
+controls1 = "A Key = Move to the left"
+controls2 = "D Key = Move to the right"
+controls3 = "W = Jump"
+controls4 = "ctrl a+ f = Full Screen"
+controls5 = "R Key = Restart the game"
+controls6 = "Enter = Select"
+controls7 = "Double A = Dash to the left"
+controls8 = "Double D = Dash to the right"
+
 //GUI Bars Menu Setup
 
 gui_width = display_get_gui_width();
@@ -15,16 +27,9 @@ menu_control = true;
 
 
 //Array for Menu Options
-menu[2] = "Play";
-menu[1] = "Controls";
+//menu[2] = "Play";
+menu[1] = "Menu";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
-menu_cursor = 2;
-
-
-
-
-
-
-
+menu_cursor = 1;
