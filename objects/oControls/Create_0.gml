@@ -9,6 +9,8 @@ controls5 = "R Key = Restart the game"
 controls6 = "Enter = Select"
 controls7 = "Double A = Dash to the left"
 controls8 = "Double D = Dash to the right"
+controls9 = "Left Click = Shoot"
+controls10 = "Right Click = To check sign post"
 
 //GUI Bars Menu Setup
 

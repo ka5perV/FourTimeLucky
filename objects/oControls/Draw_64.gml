@@ -10,6 +10,8 @@ draw_text_transformed(300, 390, controls5, .5, .5, 0)
 draw_text_transformed(300, 410, controls6, .5, .5, 0)
 draw_text_transformed(300, 430, controls7, .5, .5, 0)
 draw_text_transformed(300, 450, controls8, .5, .5, 0)
+draw_text_transformed(300, 470, controls9, .5, .5, 0)
+draw_text_transformed(300, 490, controls10, .5, .5, 0)
 
 
 
