@@ -185,12 +185,12 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
-    {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
     {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
     {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"roomId":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
     {"roomId":{"name":"rLevel4","path":"rooms/rLevel4/rLevel4.yy",},},
     {"roomId":{"name":"rControls","path":"rooms/rControls/rControls.yy",},},
+    {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
