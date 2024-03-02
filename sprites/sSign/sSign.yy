@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sDoor",
-  "bbox_bottom": 119,
-  "bbox_left": 8,
-  "bbox_right": 23,
+  "name": "sSign",
+  "bbox_bottom": 0,
+  "bbox_left": 0,
+  "bbox_right": 0,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e779baa-864c-47d9-99f6-cdfab7b4a844",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdb34df7-ae85-425f-9bfc-18c0ed5bf789",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 120,
+  "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"88782db1-acb4-4f52-8137-d040925baa6b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dedd7a23-a4ea-4c71-b36f-1c54d4ba41c6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sDoor",
+    "name": "sSign",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e779baa-864c-47d9-99f6-cdfab7b4a844","path":"sprites/sDoor/sDoor.yy",},},},"Disabled":false,"id":"88b74e77-ca2b-4447-8d73-86dd19a05795","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fdb34df7-ae85-425f-9bfc-18c0ed5bf789","path":"sprites/sSign/sSign.yy",},},},"Disabled":false,"id":"e09cd4c3-d6bc-4490-a1eb-b6ffe405a8e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 33,
+  "width": 64,
 }

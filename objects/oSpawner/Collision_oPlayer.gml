@@ -20,7 +20,7 @@ if (triggered == false)
 	}
 	
 }
-
+audio_play_sound(snd_Spawner,5,false);
 
 
 
