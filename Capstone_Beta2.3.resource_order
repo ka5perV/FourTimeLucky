@@ -29,6 +29,8 @@
     {"name":"Health","order":16,"path":"folders/Sprites/Health.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Boss","order":3,"path":"folders/Sprites/Characters/Boss.yy",},
+    {"name":"Boss","order":1,"path":"folders/Objects/Characters/Enemies/Boss.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oSmallBranches2","order":4,"path":"objects/oSmallBranches2/oSmallBranches2.yy",},
@@ -53,6 +55,7 @@
     {"name":"oPieniBranch2","order":5,"path":"objects/oPieniBranch2/oPieniBranch2.yy",},
     {"name":"pEnemy","order":19,"path":"objects/pEnemy/pEnemy.yy",},
     {"name":"snFoot4","order":3,"path":"sounds/snFoot4/snFoot4.yy",},
+    {"name":"oFinalBossShooting","order":1,"path":"objects/oFinalBossShooting/oFinalBossShooting.yy",},
     {"name":"sPlayerA","order":1,"path":"sprites/sPlayerA/sPlayerA.yy",},
     {"name":"oPDead","order":2,"path":"objects/oPDead/oPDead.yy",},
     {"name":"oTransition","order":9,"path":"objects/oTransition/oTransition.yy",},
@@ -94,6 +97,7 @@
     {"name":"sTriggerNext","order":11,"path":"sprites/sTriggerNext/sTriggerNext.yy",},
     {"name":"sEnemyA","order":2,"path":"sprites/sEnemyA/sEnemyA.yy",},
     {"name":"oDoor","order":20,"path":"objects/oDoor/oDoor.yy",},
+    {"name":"sFinalBoss_Shooting","order":1,"path":"sprites/sFinalBoss_Shooting/sFinalBoss_Shooting.yy",},
     {"name":"oLeftWall","order":3,"path":"objects/oLeftWall/oLeftWall.yy",},
     {"name":"oEnemy","order":3,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oGun","order":1,"path":"objects/oGun/oGun.yy",},
@@ -118,6 +122,7 @@
     {"name":"oRightWall","order":4,"path":"objects/oRightWall/oRightWall.yy",},
     {"name":"sPienibranch1","order":2,"path":"sprites/sPienibranch1/sPienibranch1.yy",},
     {"name":"sEBullet2","order":7,"path":"sprites/sEBullet2/sEBullet2.yy",},
+    {"name":"rLevel4","order":7,"path":"rooms/rLevel4/rLevel4.yy",},
     {"name":"sFrozenEnemy","order":6,"path":"sprites/sFrozenEnemy/sFrozenEnemy.yy",},
   ],
 }
