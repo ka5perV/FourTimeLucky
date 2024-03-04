@@ -34,5 +34,5 @@
     "path":"sprites/sTriggerNext/sTriggerNext.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
