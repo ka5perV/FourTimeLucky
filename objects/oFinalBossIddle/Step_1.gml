@@ -14,4 +14,5 @@ if (hp <=0)
 	//code when enemy hasweapon // when enemy dies gun is also destroyed
 	with (mygun) instance_destroy();
 	instance_destroy();
+	room_goto(rEnding)
 }
