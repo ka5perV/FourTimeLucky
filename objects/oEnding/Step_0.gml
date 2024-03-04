@@ -11,7 +11,7 @@ if (letters >= length) && (keyboard_check_pressed(vk_anykey))
 {
 	if (currentline+1 == array_length(endtext))
 	{
-		SlideTransition(TRANS_MODE.RESTART);
+		SlideTransition(TRANS_MODE.NEXT);
 	}
 	else
 	{
