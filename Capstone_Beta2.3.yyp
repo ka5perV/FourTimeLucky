@@ -112,6 +112,7 @@
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},},
     {"id":{"name":"sCarrotHealthBar","path":"sprites/sCarrotHealthBar/sCarrotHealthBar.yy",},},
     {"id":{"name":"oRoomMenu","path":"objects/oRoomMenu/oRoomMenu.yy",},},
+    {"id":{"name":"sFinalScreen","path":"sprites/sFinalScreen/sFinalScreen.yy",},},
     {"id":{"name":"sSmallBranches2","path":"sprites/sSmallBranches2/sSmallBranches2.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"oEnding","path":"objects/oEnding/oEnding.yy",},},

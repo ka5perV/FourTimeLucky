@@ -86,6 +86,7 @@
     {"name":"snPickup_Carrot","order":7,"path":"sounds/snPickup_Carrot/snPickup_Carrot.yy",},
     {"name":"oMenu","order":10,"path":"objects/oMenu/oMenu.yy",},
     {"name":"oRoomMenu","order":9,"path":"objects/oRoomMenu/oRoomMenu.yy",},
+    {"name":"sFinalScreen","order":21,"path":"sprites/sFinalScreen/sFinalScreen.yy",},
     {"name":"sSmallBranches2","order":5,"path":"sprites/sSmallBranches2/sSmallBranches2.yy",},
     {"name":"oEnding","order":30,"path":"objects/oEnding/oEnding.yy",},
     {"name":"oBerriebranch2","order":1,"path":"objects/oBerriebranch2/oBerriebranch2.yy",},
